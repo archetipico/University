@@ -5,3 +5,4 @@
 [submodule "Embedded-Systems/Libramentum"]
 	path = Embedded-Systems/Libramentum
 	url = https://github.com/normaloide/Libramentum.git
+	ignore = untracked
