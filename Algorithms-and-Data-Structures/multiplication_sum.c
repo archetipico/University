@@ -1,3 +1,5 @@
+// T = Θ(b), S = Θ(1)
+
 #include <stdio.h>
 
 int mult_by_sum(int a, int b);

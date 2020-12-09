@@ -1,3 +1,5 @@
+// T = Θ(log b), S = Θ(1)
+
 #include <stdio.h>
 
 int russian_mult(int a, int b);
