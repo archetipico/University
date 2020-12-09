@@ -1,6 +1,7 @@
 [submodule "Scientific-Visualization/Open-Data-Analysis"]
 	path = Scientific-Visualization/Open-Data-Analysis
 	url = https://github.com/normaloide/Open-Data-Analysis.git
+	ignore = untracked
 [submodule "Embedded-Systems/Libramentum"]
 	path = Embedded-Systems/Libramentum
 	url = https://github.com/normaloide/Libramentum.git
