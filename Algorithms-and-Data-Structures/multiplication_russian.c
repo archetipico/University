@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int russian_mult(int a, int b);
+int mult_russian(int a, int b);
 
 int main( void ) {
     int a = 0;
@@ -11,12 +11,12 @@ int main( void ) {
     printf("Insert two numbers: ");
     scanf("%d %d", &a, &b);
 
-    printf("%d", russian_mult(a, b));
+    printf("%d", mult_russian(a, b));
 }
 
 /* Russian multiplication: b is divided by 2,
 a is doubled. If b is odd, add a to the product */
-int russian_mult(int a, int b) {
+int mult_russian(int a, int b) {
     int res = 0;
 
     while (b > 0) {

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int mult_by_sum(int a, int b);
+int mult_sum(int a, int b);
 
 int main( void ) {
     int a = 0;
@@ -11,11 +11,11 @@ int main( void ) {
     printf("Insert two numbers: ");
     scanf("%d %d", &a, &b);
 
-    printf("%d", mult_by_sum(a, b));
+    printf("%d", mult_sum(a, b));
 }
 
 /* Multiplying using sums */
-int mult_by_sum(int a, int b) {
+int mult_sum(int a, int b) {
     int res = 0;
 
     while (b > 0) {
